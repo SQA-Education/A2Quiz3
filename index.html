@@ -96,13 +96,16 @@ body{font-family:'Segoe UI',sans-serif;background:linear-gradient(135deg,#0d9488
 <div class="start-info"><ul><li>⏱️ 15 questions &bull; 10 minutes</li><li>⭐ Earn XP for correct answers</li><li>🏆 Unlock badges for great performance</li><li>📊 Get personalized practice tips</li></ul></div>
 <div class="name-section"><input type="text" id="studentName" placeholder="Enter your full name..."></div>
 <div class="class-section"><select id="studentLevel"><option value="">Select your level...</option><option value="A1 (PS1) - Beginner">A1 (PS1) - Beginner</option><option value="A2 (PS2) - Elementary" selected>A2 (PS2) - Elementary</option><option value="B1 (PS3) - Intermediate">B1 (PS3) - Intermediate</option><option value="B2 (JS1) - Upper-Intermediate">B2 (JS1) - Upper-Intermediate</option><option value="C1 (JS2) - Advanced">C1 (JS2) - Advanced</option><option value="Conversation">Conversation</option></select></div>
-<div class="class-section"><select id="studentClass"><option value="">Select your class...</option>
-<optgroup label="A1 (PS1) - Beginner"><option value="3071-MW-11AM">3071 - Mon/Wed 11:00 AM (Eunice)</option><option value="3081-TTH-11AM">3081 - Tue/Thu 11:00 AM (Eunice)</option></optgroup>
-<optgroup label="A2 (PS2) - Elementary"><option value="3072-MW-9AM">3072 - Mon/Wed 9:00 AM (Angela)</option><option value="3082-TTH-9AM">3082 - Tue/Thu 9:00 AM (Angela)</option></optgroup>
-<optgroup label="B1 (PS3) - Intermediate"><option value="3073-MW-9AM">3073 - Mon/Wed 9:00 AM (Tom)</option><option value="3083-TTH-9AM">3083 - Tue/Thu 9:00 AM (Tom)</option></optgroup>
-<optgroup label="B2 (JS1) - Upper-Intermediate"><option value="3074-MW-11AM">3074 - Mon/Wed 11:00 AM (Laura)</option><option value="3084-TTH-11AM">3084 - Tue/Thu 11:00 AM (Laura)</option></optgroup>
-<optgroup label="C1 (JS2) - Advanced"><option value="3075-MW-11AM">3075 - Mon/Wed 11:00 AM (Laura)</option><option value="3085-TTH-11AM">3085 - Tue/Thu 11:00 AM (Laura)</option></optgroup>
-<optgroup label="Conversation"><option value="3076-SAT-9AM">3076 - Saturday 9:00 AM (Laura)</option></optgroup></select></div>
+<div class="class-section"><select id="studentClass">
+  <option value="">-- Select your class --</option>
+  <optgroup label="Eunice Salazar">
+    <option value="3086 - Mon/Wed 9:00 AM (Eunice)">Mon/Wed 9:00 AM - 10:30 AM (Eunice)</option>
+  </optgroup>
+  <optgroup label="Hector Amaya">
+    <option value="3091 - Mon/Wed 6:30 PM (Hector)">Mon/Wed 6:30 PM - 8:00 PM (Hector)</option>
+    <option value="3101 - Tue/Thu 8:30 PM (Hector)">Tue/Thu 8:30 PM - 10:00 PM (Hector)</option>
+  </optgroup>
+</select></div>
 <button class="btn" onclick="startQuiz()">Start Quiz →</button>
 </div></div>
 <div id="quizScreen" style="display:none">
